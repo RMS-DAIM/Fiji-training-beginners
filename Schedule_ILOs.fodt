@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2019-06-03T10:48:53.670008086</meta:creation-date><dc:date>2019-06-03T11:25:04.254160757</dc:date><meta:editing-duration>PT36M7S</meta:editing-duration><meta:editing-cycles>9</meta:editing-cycles><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/00m0$Build-3</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="68" meta:word-count="477" meta:character-count="3004" meta:non-whitespace-character-count="2625"/></office:meta>
+ <office:meta><meta:creation-date>2019-06-03T10:48:53.670008086</meta:creation-date><dc:date>2019-06-03T14:31:54.746327018</dc:date><meta:editing-duration>PT3H42M54S</meta:editing-duration><meta:editing-cycles>17</meta:editing-cycles><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/00m0$Build-3</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="64" meta:word-count="421" meta:character-count="2654" meta:non-whitespace-character-count="2324"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">17205</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">37384</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">25199</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">23447</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">8805</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">26795</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">9299</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">50791</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">17205</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">37384</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">25197</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">40651</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">60829</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -344,15 +344,18 @@
    <style:text-properties fo:background-color="transparent" loext:char-shading-value="0"/>
   </style:style>
   <style:style style:name="T2" style:family="text">
-   <style:text-properties fo:font-weight="normal"/>
+   <style:text-properties officeooo:rsid="0004f3f8" fo:background-color="transparent" loext:char-shading-value="0"/>
   </style:style>
   <style:style style:name="T3" style:family="text">
-   <style:text-properties officeooo:rsid="0000e848"/>
+   <style:text-properties fo:font-weight="normal"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
-   <style:text-properties officeooo:rsid="00024720"/>
+   <style:text-properties officeooo:rsid="0000e848"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
+   <style:text-properties officeooo:rsid="00024720"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
    <style:text-properties officeooo:rsid="0004f3f8"/>
   </style:style>
   <text:list-style style:name="L1">
@@ -747,7 +750,7 @@
       <text:p text:style-name="P5">Intro to image analysis</text:p>
       <text:list xml:id="list2662265414" text:style-name="L1">
        <text:list-item>
-        <text:p text:style-name="P7">Identify the reasons for automating image analysis tasks, <text:span text:style-name="T3">including human bias</text:span></text:p>
+        <text:p text:style-name="P7">Identify the reasons for automating image analysis tasks, <text:span text:style-name="T4">including human bias</text:span></text:p>
        </text:list-item>
        <text:list-item>
         <text:p text:style-name="P7">Discuss how imaging data is represented digitally </text:p>
@@ -779,7 +782,7 @@
         <text:p text:style-name="P8">Locate image information (properties / microscope..)</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P16">Demonstrate the <text:span text:style-name="T4">usage of</text:span> update sites and legacy plugins</text:p>
+        <text:p text:style-name="P16">Demonstrate the <text:span text:style-name="T5">usage of</text:span> update sites and legacy plugins</text:p>
        </text:list-item>
       </text:list>
      </table:table-cell>
@@ -813,16 +816,16 @@
       <text:p text:style-name="P5">Channels, Colours, LUTs</text:p>
       <text:list xml:id="list4044877038" text:style-name="L4">
        <text:list-item>
-        <text:p text:style-name="P9"><text:span text:style-name="T5">U</text:span>se Channels tool (composite, grey, etc.), <text:span text:style-name="T5">split/merge channels</text:span></text:p>
+        <text:p text:style-name="P9"><text:span text:style-name="T6">U</text:span>se Channels tool (composite, grey, etc.), <text:span text:style-name="T6">split/merge channels</text:span></text:p>
        </text:list-item>
        <text:list-item>
         <text:p text:style-name="P18">Explain the concept of LUTs and identify which ones are useful for specific situations</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P9"><text:span text:style-name="T5">Practice generating R</text:span>GB images for <text:span text:style-name="T5">presentation purposes and creating montages from multichannel images</text:span></text:p>
+        <text:p text:style-name="P9"><text:span text:style-name="T6">Practice generating R</text:span>GB images for <text:span text:style-name="T6">presentation purposes and creating montages from multichannel images</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P9"><text:span text:style-name="T5">Apply the “</text:span>Synchronise windows” <text:span text:style-name="T5">tool</text:span></text:p>
+        <text:p text:style-name="P9"><text:span text:style-name="T6">Apply the “</text:span>Synchronise windows” <text:span text:style-name="T6">tool</text:span></text:p>
        </text:list-item>
       </text:list>
      </table:table-cell>
@@ -861,13 +864,13 @@
       <text:p text:style-name="P5">Filtering</text:p>
       <text:list xml:id="list2801621882" text:style-name="L6">
        <text:list-item>
-        <text:p text:style-name="P10"><text:span text:style-name="T5">Describe</text:span> the concept of filter/kernel and <text:span text:style-name="T5">filter convolution</text:span></text:p>
+        <text:p text:style-name="P10"><text:span text:style-name="T6">Describe</text:span> the concept of filter/kernel and <text:span text:style-name="T6">filter convolution</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P10"><text:span text:style-name="T5">Apply</text:span> basic filters (blurring, rolling ball, median,...) most frequently <text:span text:style-name="T5">used</text:span> to an image, recognising their outcomes </text:p>
+        <text:p text:style-name="P10"><text:span text:style-name="T6">Apply</text:span> basic filters (blurring, rolling ball, median,...) most frequently <text:span text:style-name="T6">used</text:span> to an image, recognising their outcomes </text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P10">Use <text:span text:style-name="T5">F</text:span>ourier transformation for noise removal</text:p>
+        <text:p text:style-name="P10">Use <text:span text:style-name="T6">F</text:span>ourier transformation for noise removal</text:p>
        </text:list-item>
       </text:list>
      </table:table-cell>
@@ -882,16 +885,13 @@
       <text:p text:style-name="P5">ROIs </text:p>
       <text:list xml:id="list1118095470" text:style-name="L7">
        <text:list-item>
-        <text:p text:style-name="P11">Create simple selections with the Freehand and shape tools on the Fiji toolbar </text:p>
+        <text:p text:style-name="P11"><text:span text:style-name="T6">Use tools such as freehand selection, magic wand and create selection to generate ROIs</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P11">Generate complex ROIs using binary images and Create Selection or the magic wand tool.</text:p>
+        <text:p text:style-name="P11"><text:span text:style-name="T6">Employ</text:span> the ROI Manager to store, save and recall ROIs.</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P11">Use the ROI Manager to store, save and recall ROIs.</text:p>
-       </text:list-item>
-       <text:list-item>
-        <text:p text:style-name="P20"><text:span text:style-name="T1">Apply ROI manager mask to another image </text:span></text:p>
+        <text:p text:style-name="P20"><text:span text:style-name="T1">Apply </text:span><text:span text:style-name="T2">an </text:span><text:span text:style-name="T1">ROI manager mask to another image </text:span></text:p>
        </text:list-item>
       </text:list>
      </table:table-cell>
@@ -905,19 +905,13 @@
       <text:p text:style-name="P5">Ethics</text:p>
       <text:list xml:id="list1414962685" text:style-name="L8">
        <text:list-item>
-        <text:p text:style-name="P12">Distinguish between image processing for aesthetic reasons and image processing for data acquisition (“it does not have to be necessarily beautiful, but it has to be truthful”).</text:p>
+        <text:p text:style-name="P12"><text:span text:style-name="T6">Recognise the distinction</text:span> between image processing for aesthetic reasons and image processing for data acquisition.</text:p>
        </text:list-item>
        <text:list-item>
         <text:p text:style-name="P12">Debate why the same pipeline should be applied to all images in every each experimental condition.</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P12">Underlie that deviating from the above requires justification, but ideally should be avoided.</text:p>
-       </text:list-item>
-       <text:list-item>
-        <text:p text:style-name="P12">Know that funding bodies may ask for raw data</text:p>
-       </text:list-item>
-       <text:list-item>
-        <text:p text:style-name="P12">Highlight examples of malpractice</text:p>
+        <text:p text:style-name="P12"><text:span text:style-name="T6">Identify</text:span> examples of malpractice</text:p>
        </text:list-item>
       </text:list>
       <text:p text:style-name="Table_20_Contents"/>
@@ -942,16 +936,13 @@
         <text:p text:style-name="P13">Identify an image that is appropriately prepared for thresholding</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P13">apply simple thresholding and generate masks</text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T6">A</text:span>pply simple thresholding and generate masks</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P13">Perform basic binary image operations (open, close, watershed,...) to refine masks.</text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T6">Use</text:span> basic binary image operations (open, close, watershed,...) to refine masks.</text:p>
        </text:list-item>
        <text:list-item>
         <text:p text:style-name="P13">Identify and use appropriate parameters for morphological analysis</text:p>
-       </text:list-item>
-       <text:list-item>
-        <text:p text:style-name="P13">Report output parameters from morphological analysis</text:p>
        </text:list-item>
       </text:list>
       <text:p text:style-name="Table_20_Contents"/>
@@ -965,10 +956,10 @@
       <text:p text:style-name="P5">Measuring/Particle analysis</text:p>
       <text:list xml:id="list880346501" text:style-name="L10">
        <text:list-item>
-        <text:p text:style-name="P14">Explain duality of masks/ROIS (particle analyser generates ROIs)</text:p>
+        <text:p text:style-name="P14"><text:span text:style-name="T6">Recognise the difference between</text:span> masks <text:span text:style-name="T6">and </text:span>ROI<text:span text:style-name="T6">s</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P14">Illustrate effect of size &amp; circularity thresholds</text:p>
+        <text:p text:style-name="P14">Illustrate <text:span text:style-name="T6">the </text:span>effect of size &amp; circularity thresholds</text:p>
        </text:list-item>
        <text:list-item>
         <text:p text:style-name="P14">Apply tools such as “measure”, “analyze particles”, “plot profile”</text:p>
@@ -988,7 +979,7 @@
         <text:p text:style-name="P15">Recall sources of information and support</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P15">Distinguish good vs bad problem/bug reports</text:p>
+        <text:p text:style-name="P15"><text:span text:style-name="T6">Describe</text:span> good vs bad problem/bug reports</text:p>
        </text:list-item>
        <text:list-item>
         <text:p text:style-name="P15">Locate new repositories of information</text:p>
@@ -998,7 +989,7 @@
     </table:table-row>
    </table:table>
    <text:p text:style-name="P1"/>
-   <text:p text:style-name="Text_20_body"><text:span text:style-name="T2"><text:line-break/></text:span></text:p>
+   <text:p text:style-name="Text_20_body"><text:span text:style-name="T3"><text:line-break/></text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
