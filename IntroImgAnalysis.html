@@ -110,7 +110,7 @@ We will learn how to use <i><b>components</b></i> from the Fiji <i><b>collection
 
 
 
-<!--bit depth section below --->
+<!--Second subsession --->
 
 <section data-menu-title="Image formation" data-state="intro1"><style>.intro1 header:after { content: "How an image is formed"; }</style>
 <div><img  class="half" src="img-ia/scopes1.png"/>
@@ -159,8 +159,91 @@ We will learn how to use <i><b>components</b></i> from the Fiji <i><b>collection
 </section>
 
 
+<!--Third subsession --->
+
+
+<section data-menu-title="Stacks, colours, LUTs" data-state="fiji5z"><style>.fiji5z header:after { content: ""; }</style>
+<h1>Stacks</h1>
+<h4>Understanding how Fiji deals with multidimensional images</h4>
 </section>
 
+<section data-state="fiji5"><style>.fiji5 header:after { content: "Stacks"; }</style>
+<p>Some file formats (eg. TIF) can store multiple images in one file which are called stacks</p>
+<img class="third" src="img-ia/stacks_01.png"/>
+<img data-fragment-index="1" class="twothirds fragment" src="img-ia/stacks_02.png"/>
+<p class="fragment" data-fragment-index="1">When more than one dimension (time, z, channel) is included, the images are still stored in a linear stack so it's critical to know the dimension order (eg, XYCZT, XYZTC etc) so you can navigate the stack correctly.</p>
+</section>
+<section data-state="fiji5"><style>.fiji5 header:after { content: "Stacks"; }</style>
+<p>You will very rarely have to deal with Interleaved stacks because of <b>Hyperstacks</b> which give you independent control of dimensions with additional control bars.</p>
+<img class="third" src="img-ia/hyperstacks_01.png"/>
+<img data-fragment-index="1" class="third fragment" src="img-ia/hyperstacks_02.png"/>
+<p class="fragment" data-fragment-index="1">Convert between stack types with the <code>[Image > Hyperstack]</code> menu</p>
+</section>
+
+<section data-state="fiji6"><style>.fiji6 header:after { content: "Channel Display Modes"; }</style>
+<ul style="font-size:80%"><li>Open <a href="material/06-multichannel.tif"><code>06-MultiChannel.tif</code></a></li>
+<li>(If opening via URL run <code>[Image > Hyperstacks > Stack to Hyperstack]</code>)</li>
+<li>Navigate through the channels then run Channels Tool <code>[Image > Color > Channels Tool]</code> and change to Greyscale</li></ul>
+<img class="half" src="img-ia/modes_01.png"/>
+<img data-fragment-index="1" class="half fragment" src="img-ia/modes_03.png"/>
+<p>In this image, each channel already has an associated Look Up Table (LUT)</p>
+</section>
+<section data-state="fiji6"><style>.fiji6 header:after { content: "Channel Display Modes"; }</style>
+<p>Change to Composite mode</p>
+<img class="half" src="img-ia/modes_02.png"/>
+<ul class="half">
+<li>Use the check boxes (channels tool) to turn channels off</li>
+<li>Navigate through the channels. What happens?</li>
+<li>Adjust the Black and White Points <code>[Image > Adjust > Brightness &amp; Contrast]</code></li>
+<li>Draw a ROI on a bright area and Measure ('m')</li>
+</ul>
+<p class="fragment">IMPORTANT! The nav bar still <i>selects</i> the active channel, and that is where measurements / maniplulations are applied!</p>
+<p class="fragment">The infobar text, slider and 1px coloured image border all indicate which channel is selected.</p>
+</section>
+
+<section data-state="fiji7z"><style>.fiji7z header:after { content: ""; }</style>
+<h1>Colour in Digital Imaging</h1>
+<h4>What is colour? How and when to use LUTs</h4>
+</section>
+
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Colour"; }</style>
+<p>Colour in your images is (almost always) dictated by arbitrary lookup tables</p>
+<img class="half" src="img-ia/colour_02.png"/>
+<img data-fragment-index="1" class="third fragment" src="img-ia/colourLUT1.png"/>
+<p class="fragment" data-fragment-index="1">Lookup tables (LUTs) translate an intensity (1-256 for 8 bit) to an RGB display value</p>
+</section>
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Colour"; }</style>
+<p>Colour in your images is (almost always) dictated by arbitrary lookup tables</p>
+<img class="third" src="img-ia/colourLUT2.png"/>
+<img data-fragment-index="1" class="third fragment" src="img-ia/colourLUT3.png"/>
+<p>Lookup tables (LUTs) translate an intensity (1-256 for 8 bit) to an RGB display value</p>
+</section>
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Colour"; }</style>
+<p>You can use whatever colours you want (they are arbitrary after all), but the most reliable contrast is greyscale</p>
+<img src="img-ia/colour_05.png"/>
+<p class="subtle">More info on colour and sensitivity of the human eye <a href="https://postacquisition.wordpress.com/2015/04/15/see-the-world-in-black-and-white/" target="_blank">here</a></p>
+<!-- <ol><li>Combinations for multichannel images</li><li>Colour Blindness</li></ol> -->
+</section>
+<section data-state="fiji8b"><style>.fiji8b header:after { content: "Colour: R/G Colour blindness"; }</style>
+<p>~10% of the population have trouble discerning Red and Green. Consider using Green and Magenta instead which still combine to white.</p>
+<img src="img-ia/colour_10.png"/>
+</section>
+
+<section data-state="fiji14a"><style>.fiji14a header:after { content: "Colour: Changing LUTs"; }</style>
+<div class="twothirds left" style="font-size:90%">
+<ul><li>Open <a href="material/06-multichannel.tif"><code>06-MultiChannel.tif</code></a></li>
+<li>(If opening via URL run <code>[Image > Hyperstacks > Stack to Hyperstack]</code>)</li>
+<li>Run <code>[Image > Lookup Tables]</code>, try a few different ones</li>
+<li>Run Channels Tool <code>[Image > Color > Channels Tool]</code>, make sure you're in Color or Composite mode, hit More, select a LUT</li>
+<li data-fragment-index="1" class="fragment">Run <code>[Image > Color > Display LUTs]</code> to see all the LUTs on your version of Fiji</li></ul>
+<img data-fragment-index="1" class="fragment twothirds" src="img-ia/colourLUT6.png"/>
+</div>
+<img class="third right" src="img-ia/colourLUT5.png"/>
+</section>
+<section data-state="fiji14a"><style>.fiji14a header:after { content: "Colour: Changing LUTs"; }</style>
+<p>A couple of useful LUTs:</p>
+<img class="threequart" src="img-ia/colourLUT7.png"/>
+</section>
 
 
 
