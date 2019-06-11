@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Image Analysis with Fiji</title>
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/cci.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="lib/css/zenburn.css">
+<!-- Printing and PDF exports -->
+<script>
+var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+</head>
+<body>
+<div class="reveal">
+<!-- Header logo -->
+<!--img style="position:fixed;top:1em;right:1em;" src="img/logo_cci.png" width="15%"-->
+<!-- Slide Title -->
+<header style="position: absolute;top: 1em; left: 1em; z-index:10;"></header>
+
+
+
+<!-- ---------------------- START OF SLIDES -------------------------- -->
+
+
+
+<div class="slides">
+
+<section data-menu-title="Title">
+<h2>Stacks and Hyperstacks</h2>
+<h4>Erick Martins Ratamero<br>Research Fellow</h4>
+</section>
+
+<section data-menu-title="Stacks" data-state="fiji5z"><style>.fiji5z header:after { content: ""; }</style>
+<h1>Stacks</h1>
+<h4>Understanding how Fiji deals with multidimensional images</h4>
+</section>
+
+<section data-state="fiji5"><style>.fiji5 header:after { content: "A reminder..."; }</style>
+<p>Some file formats (eg. TIF) can store multiple images in one file which are called stacks</p>
+<img class="third" src="img-ia/stacks_01.png"/>
+<img data-fragment-index="1" class="twothirds fragment" src="img-ia/stacks_02.png"/>
+<p class="fragment" data-fragment-index="1">When more than one dimension (time, z, channel) is included, the images are still stored in a linear stack so it's critical to know the dimension order (eg, XYCZT, XYZTC etc) so you can navigate the stack correctly.</p>
+</section>
+<section data-state="fiji5"><style>.fiji5 header:after { content: "A reminder..."; }</style>
+<p>You will very rarely have to deal with Interleaved stacks because of <b>Hyperstacks</b> which give you independent control of dimensions with additional control bars.</p>
+<img class="third" src="img-ia/hyperstacks_01.png"/>
+<img data-fragment-index="1" class="third fragment" src="img-ia/hyperstacks_02.png"/>
+<p class="fragment" data-fragment-index="1">Convert between stack types with the <code>[Image > Hyperstack]</code> menu</p>
+</section>
+
+
+
+
+
+
+<!--Second subsession --->
+
+
+
+<!--Third subsession --->
+
+
+
+<!--Fourth subsession --->
+
+
+
+
+</div> <!-- ---------------------- END OF SLIDES -------------------------- -->
+
+
+</div>
+<!-- Footer -->
+<img style="position:fixed;bottom:1em;right:1em;" src="img/logo_WMS.jpg" width="10%">
+<!--img style="position:fixed;bottom:1em;left:1em;" src="img/logo_tw.png" width="20%"-->
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+// More info about config & dependencies:
+// - https://github.com/hakimel/reveal.js#configuration
+// - https://github.com/hakimel/reveal.js#dependencies
+Reveal.initialize({
+    controls: false,
+	slideNumber: true, //-- Added for development
+dependencies: [
+{ src: 'plugin/markdown/marked.js' },
+{ src: 'plugin/markdown/markdown.js' },
+{ src: 'plugin/notes/notes.js', async: true },
+{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+{ src: 'plugin/menu/menu.js' }
+],
+menu: {
+hideMissingTitles: true,
+themes: false,
+transitions: false,
+//markers: true,
+numbers: true,
+openButton: false,
+titleSelector: 'span.menu-title'
+
+}
+});
+</script>
+</body>
+</html>
