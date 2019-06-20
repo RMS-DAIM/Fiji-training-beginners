@@ -56,21 +56,63 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 <p class="fragment" data-fragment-index="1">Convert between stack types with the <code>[Image > Hyperstack]</code> menu</p>
 </section>
 
+<section data-state="fiji6"><style>.fiji6 header:after { content: "But what are stacks?"; }</style>
+<p>By default, Fiji will <b>only show you one two-dimensional image (slice) at a time.</b></p>
+<img class="third" src="img-ia/stacks_05.png"/>
+<p class="fragment" data-fragment-index="1">Bars at the bottom of the window indicate there are multiple slices on a given image.</p>
+</section>
+
+
+<!--Nomenclature (stacks vs hyperstacks) --->
+
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Stacks vs Hyperstacks"; }</style>
+<img class="third" src="img-ia/stacks_01.png"/>
+<p>Three-dimensional data structures are named <b>Stacks</b>. That means a series of images (multiple Z slices, or multiple timepoints, or multiple channels).</p>
+</section>
+
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Stacks vs Hyperstacks"; }</style>
+<img class="twothirds" src="img-ia/stacks_02.png"/>
+<p>When multiple of those cases are in place at the same time, these data structures are named <b>Hyperstacks</b>. That means, typically 4 or 5-dimensional objects.</p>
+</section>
 
 
 
+<!--Second subsession  - Practical: opening files and changing dimensions --->
 
+<section data-state="fiji2"><style>.fiji2 header:after { content: "Opening a hyperstack and changing dimensions"; }</style>
+<ol>
+<li>Run Fiji (Look for the shortcut on your desktop)</li>
+<!-- <li>Right click <a href="">this link</a> and "copy link location"</li> -->
+<li>Open <code><a href="material/18-mitosis.tif">18-mitosis.tif</a></code></li>
+<ul>
+<li>Check the dimensionality using <code>[Image > Properties]</code></li>
+<li>Change the dimensionality using <code>[Image > Hyperstacks > Stack to Hyperstack...]</code>.</li>
+<li>Did it go wrong? Can you figure out why?</li>
+<li>(an example that works: C=2, Z=15, T=17)</li>
+<li>What happens if you try C=3, Z=10, T=17? Would you expect it to work?</li></ul>
+</ul></ol>
 
-<!--Second subsession --->
+</section>
 
-
-
-<!--Third subsession --->
+<!--Third subsession - Projections: couple slides of theory, practical --->
 
 
 
 <!--Fourth subsession --->
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Stack manipulation"; }</style>
 
+<img src="img-ia/stacks_03.png"/>
+</section>
+
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Stack manipulation"; }</style>
+
+<img src="img-ia/stacks_04.png"/>
+</section>
+<!--Add 3d viewer --->
+
+
+
+<!--Fifth subsession - Challenge: interleaved stack--->
 
 
 
