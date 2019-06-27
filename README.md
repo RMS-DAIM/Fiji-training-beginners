@@ -6,7 +6,7 @@ Materials for the 1-day Beginners workshop in Fiji
 | ------------- | ------------- | ------------- |
 | Intro to image analysis  | Materials ready | IntroImgAnalysis.html, IntroImgAnalysis.odt |
 | Intro to Fiji: interface, intensities  | Materials ready  | IntroFiji.html, IntroFiji.odt |
-| Stacks/Hyperstacks   | Session summary ready  | Stacks.odt |
+| Stacks/Hyperstacks   | Materials ready  | Stacks.html, Stacks.odt |
 | Channels, Colours, LUTs  | ILOs only  | ------------- |
 | Bioformats, Metadata, Scale bars  | ILOs only  | ------------- |
 | Filtering  | ILOs only  | ------------- |
