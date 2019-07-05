@@ -8,7 +8,7 @@ Materials for the 1-day Beginners workshop in Fiji
 | Intro to Fiji: interface, intensities  | Materials ready  | IntroFiji.html, IntroFiji.odt |
 | Stacks/Hyperstacks   | Materials ready  | Stacks.html, Stacks.odt |
 | Channels, Colours, LUTs  | Session summary  | Colours.odt |
-| Bioformats, Metadata, Scale bars  | ILOs only  | ------------- |
+| Bioformats, Metadata, Scale bars  | Session summary  | Metadata.odt |
 | Filtering  | ILOs only  | ------------- |
 | ROIs  | ILOs only  | ------------- |
 | Ethics  | ILOs only  | ------------- |

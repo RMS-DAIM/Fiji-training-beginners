@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Image Analysis with Fiji</title>
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/cci.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="lib/css/zenburn.css">
+<!-- Printing and PDF exports -->
+<script>
+var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+</head>
+<body>
+<div class="reveal">
+<!-- Header logo -->
+<!--img style="position:fixed;top:1em;right:1em;" src="img/logo_cci.png" width="15%"-->
+<!-- Slide Title -->
+<header style="position: absolute;top: 1em; left: 1em; z-index:10;"></header>
+
+
+
+<!-- ---------------------- START OF SLIDES -------------------------- -->
+
+
+
+<div class="slides">
+
+<section data-menu-title="Title">
+<h2>Metadata</h2>
+<h4>Erick Martins Ratamero<br>Research Fellow</h4>
+</section>
+
+
+<!--First subsession  - What is metadata; essential metadata and what difference it makes --->
+
+<section data-menu-title="Metadata" data-state="fiji6"><style>.fiji6 header:after { content: "What is metadata?"; }</style>
+<p>Associated with the image, rather than part of the image itself. "Data about the data". Can encode anything from time of capture to specific microscope parameters that were being used.</p>
+</section>
+
+<section data-state="fiji6"><style>.fiji6 header:after { content: "What is metadata?"; }</style>
+<p>Most essential one: dimensions (pixel size, Z separation, timepoints, channels)</p>
+</section>
+
+<section data-state="fiji6"><style>.fiji6 header:after { content: "What is metadata?"; }</style>
+<p>But why? well, you don't want your measurements to be messed up</p>
+</section>
+
+
+<!--Second subsession  - Looking at metadata in Fiji; setting calibrations, scale bars --->
+
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Metadata in Fiji"; }</style>
+<p>Image -> Properties</p>
+</section>
+
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Metadata in Fiji"; }</style>
+	<p>Check your channels</p>
+</section>
+
+<section data-state="fiji7"><style>.fiji7 header:after { content: "Metadata in Fiji"; }</style>
+	<p>Scale bars and how they can be wrong (quick comment on overlays)</p>
+</section>
+
+
+
+<!--Third subsession - Bioformats and how to open/save data with it --->
+
+<section data-state="fiji8"><style>.fiji8 header:after { content: "Bioformats"; }</style>
+	<p>What is bioformats</p>
+</section>
+
+<section data-state="fiji8"><style>.fiji8 header:after { content: "Bioformats"; }</style>
+<p>Formats - what if it doesn't work for my files?</p>
+</section>
+
+<section data-state="fiji8"><style>.fiji8 header:after { content: "Bioformats"; }</style>
+<p>Drag and drop vs Bioformats importer</p>
+</section>
+
+<section data-state="fiji8"><style>.fiji8 header:after { content: "Bioformats"; }</style>
+<p>Bioformats exporter</p>
+</section>
+
+
+<!--Fourth subsession - Practical: opening images with Bioformats, setting calibration, creating scale bars --->
+
+
+
+
+
+
+
+
+
+
+
+</div> <!-- ---------------------- END OF SLIDES -------------------------- -->
+
+
+</div>
+<!-- Footer -->
+<img style="position:fixed;bottom:1em;right:1em;" src="img/logo_WMS.jpg" width="10%">
+<!--img style="position:fixed;bottom:1em;left:1em;" src="img/logo_tw.png" width="20%"-->
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+// More info about config & dependencies:
+// - https://github.com/hakimel/reveal.js#configuration
+// - https://github.com/hakimel/reveal.js#dependencies
+Reveal.initialize({
+    controls: false,
+	slideNumber: true, //-- Added for development
+dependencies: [
+{ src: 'plugin/markdown/marked.js' },
+{ src: 'plugin/markdown/markdown.js' },
+{ src: 'plugin/notes/notes.js', async: true },
+{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+{ src: 'plugin/menu/menu.js' }
+],
+menu: {
+hideMissingTitles: true,
+themes: false,
+transitions: false,
+//markers: true,
+numbers: true,
+openButton: false,
+titleSelector: 'span.menu-title'
+
+}
+});
+</script>
+</body>
+</html>
